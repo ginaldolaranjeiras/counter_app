@@ -43,7 +43,7 @@ class SocialLogin extends StatelessWidget {
                   textAlign: TextAlign.center,
                 ),
               ),
-              Expanded(child: Container())
+              Expanded(child: Container()),
             ],
           ),
         ),

@@ -1,3 +1,4 @@
+import 'package:counter_app/controllers/login_contoller.dart';
 import 'package:counter_app/views/components/social_button.dart';
 import 'package:counter_app/views/themes/app_colors.dart';
 import 'package:counter_app/views/themes/app_images.dart';
@@ -15,6 +16,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
+    final controller = LoginController();
     return Scaffold(
       body: Container(
         width: size.width,
@@ -57,7 +59,9 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   SocialLogin(
-                    onTap: () {},
+                    onTap: () async {
+                      controller.googleSignIn();
+                    },
                   ),
                 ],
               ),
