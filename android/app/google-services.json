@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621892164684",
+    "project_id": "counter-app-nlw",
+    "storage_bucket": "counter-app-nlw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621892164684:android:93570e99f47cc92785a8e9",
+        "android_client_info": {
+          "package_name": "com.example.counter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621892164684-6pvhvmht4qt985vb1cj06viqpicetj66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrqacRqFWP0r-FeXsQ7y6ZFqcmBj6s5DU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621892164684-6pvhvmht4qt985vb1cj06viqpicetj66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

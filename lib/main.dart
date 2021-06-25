@@ -1,4 +1,4 @@
-import 'package:counter_app/views/counter_app.dart';
+import 'package:counter_app/controllers/app_firebase.dart';
 import 'package:flutter/cupertino.dart';
 
-void main() => runApp(CounterApp());
+void main() => runApp(AppFireBase());
