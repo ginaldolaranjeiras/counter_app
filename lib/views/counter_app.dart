@@ -1,4 +1,6 @@
+import 'package:counter_app/views/pages/homepage.dart';
 import 'package:counter_app/views/pages/login_page.dart';
+import 'package:counter_app/views/pages/splash_page.dart';
 //import 'package:counter_app/views/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 //import 'package:counter_app/views/pages/homepage.dart';
@@ -12,7 +14,12 @@ class CounterApp extends StatelessWidget {
     return MaterialApp(
       title: "PayFlow",
       theme: counterAppTheme,
-      home: LoginPage(),
+      initialRoute: "/",
+      routes: {
+        "/": (context) => SplashPage(),
+        "/home": (context) => HomePage(),
+        "/login": (context) => LoginPage(),
+      },
     );
   }
 }
